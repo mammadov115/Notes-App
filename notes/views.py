@@ -1,13 +1,14 @@
 from rest_framework import generics, permissions
 from .models import Note
 from .serializers import NoteSerializer
+from .permissions import IsOwner
 # Create your views here.
 
 class NotesListCreateView(generics.ListCreateAPIView):
 
     queryset = Note.objects.all()
     serializer_class = NoteSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated, IsOwner]
 
     
     def get_queryset(self):
@@ -17,6 +18,8 @@ class NotesListCreateView(generics.ListCreateAPIView):
 class NotesDetailView(generics.RetrieveDestroyAPIView):
     queryset = Note.objects.all()
     serializer_class = NoteSerializer
+    permission_classes = [permissions.IsAuthenticated, IsOwner]
+
 
     def get_queryset(self):
         return Note.objects.filter(owner=self.request.user)

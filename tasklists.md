@@ -94,9 +94,9 @@
 
 ### 🔒 4. Auth və Permissions
 
-* [ ] Custom permission yaz: `IsOwner`
-* [ ] View-larda permission əlavə et
-* [ ] Token olmadan endpoint-lərə girişin qarşısını al
+* [+] Custom permission yaz: `IsOwner`
+* [+] View-larda permission əlavə et
+* [+] Token olmadan endpoint-lərə girişin qarşısını al
 
 ---
 
