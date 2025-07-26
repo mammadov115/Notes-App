@@ -63,13 +63,13 @@
 
 ### 👥 2. İstifadəçi Auth Sistemi
 
-* [ ] Custom User modeli yarat (əgər lazım olsa)
-* [ ] `users` adlı app yarat və qeydiyyat/login/logout üçün API-lər yaz
-* [ ] JWT autentifikasiya sistemi inteqrasiya et (`SimpleJWT`)
-* [ ] İstifadəçi qeydiyyatı API (`/api/register/`)
-* [ ] Token əldəetmə API (`/api/token/`)
-* [ ] Token yeniləmə API (`/api/token/refresh/`)
-* [ ] Logout üçün endpoint (token blacklist optional)
+* [+] Custom User modeli yarat (əgər lazım olsa)
+* [+] `users` adlı app yarat və qeydiyyat/login/logout üçün API-lər yaz
+* [+] JWT autentifikasiya sistemi inteqrasiya et (`SimpleJWT`)
+* [+] İstifadəçi qeydiyyatı API (`/api/register/`)
+* [+] Token əldəetmə API (`/api/token/`)
+* [+] Token yeniləmə API (`/api/token/refresh/`)
+* [+] Logout üçün endpoint (token blacklist optional)
 
 ---
 
