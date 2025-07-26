@@ -75,20 +75,20 @@
 
 ### 🗒️ 3. Notes CRUD Sistemi
 
-* [ ] `Note` modeli yarat:
+* [+] `Note` modeli yarat:
 
   * title (CharField)
   * content (TextField)
   * owner (ForeignKey → User)
   * created\_at, updated\_at (DateTimeFields)
-* [ ] Note modelini admin panelə əlavə et
-* [ ] Serializer yaz: `NoteSerializer`
-* [ ] API views yaz:
+* [+] Note modelini admin panelə əlavə et
+* [+] Serializer yaz: `NoteSerializer`
+* [+] API views yaz:
 
   * List + Create — `/api/notes/`
   * Retrieve/Update/Delete — `/api/notes/<id>/`
-* [ ] Yalnız login olan istifadəçi üçün CRUD imkanları ver (authentication + permission)
-* [ ] Notes-lar yalnız sahibinə görünməlidir (queryset filtering)
+* [+] Yalnız login olan istifadəçi üçün CRUD imkanları ver (authentication + permission)
+* [+] Notes-lar yalnız sahibinə görünməlidir (queryset filtering)
 
 ---
 
