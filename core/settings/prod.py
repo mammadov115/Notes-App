@@ -1,5 +1,7 @@
 # config/settings/prod.py
 
+import os
+
 from .base import *
 
 DEBUG = False

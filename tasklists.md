@@ -102,30 +102,30 @@
 
 ### 🧪 5. Testlər
 
-* [ ] İstifadəçi qeydiyyatı və login üçün testlər
-* [ ] Token alma və doğrulama testləri
-* [ ] CRUD əməliyyatları üçün testlər (auth və permission daxil olmaqla)
+* [+] İstifadəçi qeydiyyatı və login üçün testlər
+* [+] Token alma və doğrulama testləri
+* [+] CRUD əməliyyatları üçün testlər (auth və permission daxil olmaqla)
 
 ---
 
 ### 🐳 6. Dockerize Etmək
 
-* [ ] `Dockerfile` və `docker-compose.yml` fayllarını yarat
-* [ ] `.env` faylına əsasən environment dəyişkənləri konfiqurasiya et
-* [ ] Django layihəsini konteynerdə işə sal
+* [+] `Dockerfile` və `docker-compose.yml` fayllarını yarat
+* [+] `.env` faylına əsasən environment dəyişkənləri konfiqurasiya et
+* [+] Django layihəsini konteynerdə işə sal
 
 ---
 
 ### 🧹 7. Kod Keyfiyyəti və Refaktor
 
-* [ ] Pre-commit hooks əlavə et (black, isort, flake8)
-* [ ] Kodun təmizlənməsi və sənədləşdirilməsi
+* [+] Pre-commit hooks əlavə et (black, isort, flake8)
+* [+] Kodun təmizlənməsi və sənədləşdirilməsi
 * [ ] README faylına layihənin izahını yaz
 
 ---
 
 ### 📦 8. Deployment (əgər istənilirsə)
 
-* [ ] Production üçün `PostgreSQL` dəstəyi əlavə et
-* [ ] Environment dəyişkənləri üçün `.env.prod` faylı
-* [ ] `gunicorn` və `nginx` ilə konfiqurasiya (gələcək mərhələdə)
+* [+] Production üçün `PostgreSQL` dəstəyi əlavə et
+* [-] Environment dəyişkənləri üçün `.env.prod` faylı
+* [+] `gunicorn` və `nginx` ilə konfiqurasiya (gələcək mərhələdə)
