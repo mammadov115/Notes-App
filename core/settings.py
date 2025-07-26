@@ -1,3 +1,4 @@
+
 """
 Django settings for core project.
 
@@ -37,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # apps
+    'notes',  # your notes app
+    # third-party apps
+    'rest_framework',  # Django REST Framework
+    'rest_framework_simplejwt',  # JWT authentication
 ]
 
 MIDDLEWARE = [
